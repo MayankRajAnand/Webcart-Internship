@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e6e6e6;
+}
+.container-fluid{
+    background-color: white;
+    width:98%;
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.3);
+    
+}
+.logo{
+    width:150px;
+}
+.navimg{
+    width:170px;
+}
+.top .btn{
+    width:200px;
+}
+.a{
+    position:absolute;
+    top:18%;
+    right:5%;
+}
+.lefty{
+    background-color: black;
+    height:80vh;
+   
+}
+.righty{
+    height:80vh;
+    width:60%;
+}
+.help{
+    height:80vh;
+    width:100%;
+}
+
+.span{
+    font-size:8rem;
+    font-weight: 300 !important;
+}
+.sec{
+    height:300px;
+    width:300px;
+    border:5px solid black;
+    border-radius:20px;
+}
+.sect{
+    width:90%;
+    
+}
+.sect img{
+    height:300px;
+}
+.ut{
+    padding-bottom:80px !important;
+}
+.para{
+    width:70%;
+    margin:auto;
+}
+.join img{
+    width:110%;
+}
+.paraa{
+    text-align: center;
+    width:80%;
+    margin:auto;
+}
+.box .btn{
+    margin:0 120px;
+}
+.sections{
+    width:90vw;
+    height:80vh;
+    border:10px solid black;
+    border-radius:15px;
+    
+}
+.ima{
+    width:70%;
+    margin:50px 10px;
+}
+.imag{
+    height:120px;
+}
+.he{
+   
+    padding:15px;
+    border-radius: 15px;
+    border:8px solid black;
+}
+.footer{
+    background-color: black;
+}
+.social{
+    padding: 0;
+    margin-left: -10px;
+    width:300px;
+}
+.playicon{
+    width:200px;
+    height:100px;
+}
+
+/* RESPONSIVE */
