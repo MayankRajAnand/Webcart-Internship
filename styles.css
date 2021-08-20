@@ -120,7 +120,7 @@ body{
     }
     .container-fluid{
         height:auto;
-        width:100vw !important;
+        min-width:100vw !important;
     }
     .sec1 .right img{
         min-width: 40vw;
