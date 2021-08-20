@@ -84,11 +84,13 @@ body{
     
 }
 .ima{
-    width:70%;
-    margin:50px 10px;
+    width:80% !important;
 }
-.imag{
-    height:120px;
+.image1{
+    height:15vh;
+}
+.image2{
+    height:15vh;
 }
 .he{
    
@@ -113,18 +115,28 @@ body{
 @media(max-width:768px)
 {
     .a{
-        margin-top:15%;
+        margin-top:30%;
+        
     }
     .container-fluid{
         height:auto;
     }
     .sec1 .right img{
-        min-width: 50vw;
-        min-height: 40vh;
+        min-width: 40vw;
+        min-height: 30vh;
     }
     .lefty ,.righty ,.help{
-        min-height:50vh;
-        min-width: 40vw;
+        max-height:50vh;
+        max-width: 40vw;
+
+       
+    }
+    .sec3 .sec  ,.sec4 .sect{
+        min-width: 250px;
+        max-width: 250px;
+    }
+    .sec3 h2 , .sec4 h2{
+        font-size: 1.5rem;
     }
     
     .lefty p{
@@ -167,13 +179,8 @@ body{
     .sec8 h1{
         font-size: 1rem !important;
     }
-    .ima{
-        min-width: 30%;
-    }
-    .imag{
-        margin:10px;
-        height:100px;
-    }
+    
+    
     .sec9 span{
         font-size: 1.5rem !important;
     }
@@ -192,6 +199,13 @@ body{
     .social ,.playicon{
         height:50px;
         width:100px;
+    }
+
+    .sec8 .right{
+        margin-top: 100px;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
     }
    
 }
